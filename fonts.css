@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Emperator';
+    src: url('./fonts/EmperatorClassicEssential-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Molenilo';
+    src: url('./fonts/MoleniloLow.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Allenoire';
+    src: url('./fonts/Allenoire-Regular.otf') format('opentype');
+}
+
+body {
+    font-family: 'Molenilo', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Emperator', serif;
+}
+
+.project-idea {
+    font-family: 'Allenoire', cursive;
+    font-size: 22px;
+    color: #3D3B40;
+}
+body {
+    background-image: url('C:\Users\subik\OneDrive\Desktop\PaperPitch\pp bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 {
+    font-family: 'Emperator', sans-serif;
+}
+
+p, span, div {
+    font-family: 'Molenilo', sans-serif;
+}
+/* Center all content */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  
